@@ -10,18 +10,20 @@
 
 <body> 
     <header>
-        <img src="img/" alt="Логотип">
+        <img class ='src' src="img/logo.png" width="100" height="100" alt="Логотип">
         <h1>Это моя очередная HTML страница</h1>
     </header>
     <main>
         <h1 class = "about_me">О себе</h1>
         <section class = "autobiography">
-            <img src="img/" alt="Фотография котика">
-            <p>
-                Привет, меня зовут Ксюша!
-                Я родилась и выросла в <a class = "link" href = "">Самаре</a>, и вот уже несколько лет учусь в <b>Samara University</b>
-                У меня много <del>творческих</del> увлечений, но самое любимое - <i>вязание</i>
-            </p>
+            <div class="my_text">
+                <img src="img/foto.jpg" width="600" alt="Фотография котика">
+                <p>
+                    Привет, меня зовут Ксюша!
+                    Я родилась и выросла в <a class = "link" href = "https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BC%D0%B0%D1%80%D0%B0">Самаре</a>, и вот уже несколько лет учусь в <b>Samara University</b>
+                    У меня много <del>творческих</del> увлечений, но самое любимое - <i>вязание</i>
+                </p>   
+            </div>
             <ul class = "movies">
                 <h2>Какие фильмы мне нравятся:</h2>
                 <li class = "movies_item">Призраки</li>
@@ -29,33 +31,33 @@
                 <li class = "movies_item">Детство Шелдона</li>
                 <li class = "movies_item">Кремниевая долина</li>
             </ul>
-            <li class = "music">
+            <ol class = "music">
                 <h2>Какая музыка мне нравится:</h2>
                 <ol class = "music_item">Iamjakehill - Nerve</ol>
                 <ol class = "music_item">Тима ищет свет - волна</ol>
                 <ol class = "music_item">The 5:55 - Worriers</ol>
                 <ol class = "music_item">Iamjakehill & Josh A - Run Up!</ol>
-            </li>
+            </ol>
         </section>
         <section class = "cat">
-            <h2>Мой домашний питомец:</h2>
-            <p>Я очень люблю свою кошку Юсю<p>
+            <h2>Мои любимые животные:</h2>
+            <p>Я очень люблю кошек<p>
             <div class = cat_gallery>
-                <img src="img/" alt="Фото коти 1">
-                <img src="img/" alt="Фото коти 2">
-                <img src="img/" alt="Фото коти 3">
-                <img src="img/" alt="Фото коти 4">
+                <img class = "foto_cat1" src="img/1.jpg" width="550" alt="Фото коти 1">
+                <img class = "foto_cat2" src="img/2.jpg" width="550" alt="Фото коти 2">
+                <img class = "foto_cat3" src="img/3.jpg" width="550" alt="Фото коти 3">
+                <img class = "foto_cat4" src="img/4.jpg" width="550" alt="Фото коти 4">
             </div>
         </section>
     </main>
     <footer>
         <h3>Связаться со мной:</h3>
-            <div class="link">
+            <div class="link_items">
                 <div class="link_item">
-                    <a href="https://vk.com/ksssssssssssssssssu"><img src="img\vk.png" width="50" height="50" alt="Логотип vk"></a>
+                    <a href="https://vk.com/ksssssssssssssssssu"><img class ='src' src="img\vk.png" width="50" height="50" alt="Логотип vk"></a>
                 </div>
                 <div class="link_item">
-                    <a href="https://t.me/kkkkkkkkkkkkkks"><img src="img/tg.png" width="50" height="50" alt="Логотип tg"></a>
+                    <a href="https://t.me/kkkkkkkkkkkkkks"><img class ='src' src="img/tg.png" width="50" height="50" alt="Логотип tg"></a>
             </div>
     </footer>
 </body>

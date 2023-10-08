@@ -1,0 +1,112 @@
+* 
+{
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+header
+{
+    text-align: center;
+    background-color: #6AADFF35;
+}
+
+footer
+{
+    height: 150px;
+    padding-top: 20px;
+    text-align: center;
+    background-color: #6AADFF35;
+}
+
+main
+{
+    padding: 0 200px;
+}
+body
+{
+    background: linear-gradient(
+      217deg,
+      rgba(255, 0, 0, 0.3),
+      rgba(255, 0, 0, 0) 70.71%
+    ), linear-gradient(127deg, rgba(0, 255, 0, 0.2), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+}
+h1
+{
+    padding: 0px 10px 20px 10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.my_text
+{
+    background-color:#F7FCFF;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px 10px #6AADFF35;
+    padding: 40px;
+}
+a
+{
+    color: #3398FF;
+    text-decoration: none;
+}
+img
+{
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px 10px #6AADFF35;
+}
+
+.src
+{
+    border-radius: 0;
+    box-shadow: none;
+}
+
+ul 
+{
+    list-style-type:circle;
+    line-height: 25px;
+}
+ol 
+{
+    line-height: 25px;
+}
+li
+{
+    padding-left: 40px;
+}
+.cat_gallery
+{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 2);
+    grid-gap: 20px;
+    grid-area: 2 / 2 ;
+}
+.link_items
+{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.foto_cat1
+{
+    grid-column: 1;
+    grid-row: 1;
+}
+.foto_cat2
+{
+    grid-column: 1;
+    grid-row: 2;
+}
+.foto_cat3
+{
+    grid-column: 2;
+    grid-row: 1;
+}
+.foto_cat4
+{
+    grid-column: 2;
+    grid-row: 2;
+}
