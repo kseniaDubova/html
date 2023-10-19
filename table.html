@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная работа 4</title>
+    <link href="style/new_style.css" rel="stylesheet">
+    <link href="style/table_stale.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class ="logo">
+            <img class ='src' src="img/logo.png" width="100" height="100" alt="Логотип">
+            <h1>Это моя очередная HTML страница</h1>
+        </div>
+        <div class = "headers_links">
+            <a class = "headers_link" href="new.html">Обо мне</a>
+            <a class = "headers_link" href="pages2.html">Позиционирование элементов</a>
+            <a class = "headers_link" href="table.html">Таблица</a>
+        </div>
+    </header>
+    <div class="table_name">
+        <caption>Список первых 5-ти студентов группы 6311-100503D</caption>
+    </div>
+    <table class="main_table">
+        <tr class="row_column_name">
+            <th class="column_name">№</th>
+            <th class="column_name">Фамилия</th>
+            <th class="column_name">Имя</th>
+            <th class="column_name">VK</th>
+        </tr>
+        <tr class="even_row">
+            <th>1</th>
+            <th>Белякова</th>
+            <th>Вероника</th>
+            <th><a href="https://vk.com/vkysnika">@vkysnika</a></th>
+        </tr>
+        <tr class="odd_row">
+            <th>2</th>
+            <th>Богачёв</th>
+            <th>Матвей</th>
+            <th><a href="https://vk.com/matosik1011">@matosik1011</a></th>
+        <tr class="even_row">
+            <th>3</th>
+            <th>Гусарова</th>
+            <th>Маргарита</th>
+            <th><a href="https://vk.com/maargo_gusarova">@maargo_gusarova</a></th>
+        </tr>
+        <tr class="odd_row">
+            <th>4</th>
+            <th>Дубова</th>
+            <th>Ксения</th>
+            <th><a href="https://vk.com/ksssssssssssssssssu">@ksssssssssssssssssu</a></th>
+        </tr>
+        <tr class="even_row">
+            <th>5</th>
+            <th>Замотохина</th>
+            <th>Мария</th>
+            <th><a href="https://vk.com/maffinka23">@maffinka23</a></th>
+        </tr>
+    </table>
+    <form id = "main_form" method="post">
+        <fieldset>
+            <label for="fname">Фамилия:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Имя:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="vk">Ссылка на VK:</label><br>
+            <input type="text" id="vk" name="vk"><br>
+            <input type="submit" name="submit" value="Отправить"><br>  
+        </fieldset>
+    </form>
+    <script src="form.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+
+table
+{
+    border-spacing: 6px;
+}
+
+th
+{
+    padding: 15px 10px 15px 5px;
+    border-radius: 5px;
+}
+th:hover
+{
+    background-color: aliceblue;
+    border-radius: 0px;
+}
+.main_table
+{
+    margin: 10px auto 0px auto;
+    width: 1000px;
+    border-radius: 5px;
+}
+
+.table_name
+{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    height: 60px;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.row_column_name
+{
+    background-color: #ffa8f3d6;
+    font-weight: bold;
+    font-size: 17px;
+    height: 42px;
+    text-transform: uppercase;
+}
+
+
+.even_row
+{
+    background-color: #ffffff7e;
+    font-weight: lighter;
+    font-size: 14px;
+    height: 30px;
+    color: rgb(153, 0, 255);
+}
+
+.odd_row
+{
+    background-color: #ffdff9a3;
+    font-weight: lighter;
+    font-size: 14px;
+    height: 30px;
+    color: #ff49e7;
+}
+form
+{
+    width: 200px;
+    height: 300px;
+    margin: 50px 300px;
+}
+fieldset
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    border-color: #ff49e7;
+    background-color: #ffcaf86e;
+    padding-top: 15px;
+}
+input[type=text]
+{
+    border: none;
+    border-radius: 20px;
+}
+input[type=submit]
+{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+}
+input[type=submit]:hover
+{
+    background-color: white;
+    border: none;
+    color: #04AA6D;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+}
+label
+{
+    font-size: 14px;
+    margin-bottom: -10px;
+}

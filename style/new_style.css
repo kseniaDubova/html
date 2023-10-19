@@ -5,10 +5,26 @@
 
 header
 {
+    display: flex;
     text-align: center;
     background-color: #6AADFF35;
 }
+.logo
+{
+    margin-left: 100px;
 
+}
+
+.headers_links
+{ 
+    margin-left: 80px;
+    padding-top: 130px;
+    gap: 40px;
+}
+.headers_link
+{
+    margin-right: 20px;
+}
 footer
 {
     height: 150px;
