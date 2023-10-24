@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная работа 6</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="style/info.css" rel="stylesheet">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50"> 
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark">
+            <a class = "navbar-brand" href="info.html">Информация</a>
+            <a class = "navbar-brand" href="films.html">Фильмы</a>
+        </nav>
+    </header>
+    <main id = "main">
+            <div class="row">
+                <div class="col-2">
+                  <div id="list-example" class="list-group sticky-top">
+                    <a class="list-group-item list-group-item-action" href="#carouselExample">Карусель</a>
+                    <a class="list-group-item list-group-item-action" href="#films">Фильмы</a>
+                    <a class="list-group-item list-group-item-action" href="#info">Краткая информация</a>
+                  </div>
+                </div>
+                <div class="col-10">
+                  <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <img src="film/1.jpeg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="film/5.jpeg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="film/3.jpeg" class="d-block w-100">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="intr"></div>
+                    <div id = "films" class = "films_card">
+                        <div class="card" style="width: 18rem;">
+                            <img src="film/f1.jpeg" class="card-img-top">
+                            <div class="card-body">
+                            <h5 class="card-title">Чудотворцы</h5>
+                            <p class="card-text">Бог решает уничтожить Землю. Чтобы это предотвратить, ангелы-клерки Крейг и Элиза должны исполнить невозможную молитву</p>
+                            <a href="https://www.kinopoisk.ru/series/1111018/" class="button btn btn-primary">Кинопоиск</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="film/f2.jpeg" class="card-img-top">
+                            <div class="card-body">
+                            <h5 class="card-title">Пушки Акимбо</h5>
+                            <p class="card-text">Майлз был обычным разработчиком видеоигр, пока его не втянули в кровавый квест. Незнакомцы вломились в дом, прибили к рукам два пистолета и похитили любимую девушку. Теперь Майлзу придётся сразиться с Никс — безжалостной чемпионкой подпольных игр на выживание</p>
+                            <a href="https://www.kinopoisk.ru/film/1142604/" class="button btn btn-primary">Кинопоиск</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="film/f3.jpeg" class="card-img-top">
+                            <div class="card-body">
+                            <h5 class="card-title">Иллюзия обмана 2</h5>
+                            <p class="card-text">«Четыре всадника», команда лучших иллюзионистов мира, снова в сборе! Их «магия» стала еще совершеннее, а враги — опаснее. На сей раз им предстоит спасти свою репутацию и вывести на чистую воду жестокого техномагната</p>
+                            <a href="https://www.kinopoisk.ru/film/786958/" class="button btn btn-primary">Кинопоиск</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="intr"></div>
+                    <div id ="info" class="info">
+                        <p>
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">Краткая информация</button>
+                        </p>
+                        <div style="min-height: 120px;">
+                            <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                            <div class="card card-body" style="width: 300px;">
+                                Дэ́ниел Дже́йкоб Рэ́дклифф — британский актёр, продюсер.
+        
+                                Известен как исполнитель роли Гарри Поттера в многолетней серии одноимённых фильмов, снятых по произведениям писательницы Джоан Роулинг. В 2009 году был занесён в Книгу рекордов Гиннесса как самый высокооплачиваемый актёр десятилетия. Получил именную звезду на голливудской Аллее славы в Калифорнии за вклад в киноискусство</div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    </main>
+</body>
+
+</html>

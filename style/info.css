@@ -1,0 +1,28 @@
+.films_card
+{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.intr
+{
+    height: 50px;
+}
+header
+{
+    padding-left: 100px;
+    background-color: black;
+}
+.page_2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+
+}
+.mes
+{
+    width: 500px;
+    text-align: center;
+}
