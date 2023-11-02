@@ -41,7 +41,7 @@ th:hover
 }
 
 
-.even_row
+.f_row
 {
     background-color: #ffffff7e;
     font-weight: lighter;
@@ -50,7 +50,7 @@ th:hover
     color: rgb(153, 0, 255);
 }
 
-.odd_row
+.s_row
 {
     background-color: #ffdff9a3;
     font-weight: lighter;
